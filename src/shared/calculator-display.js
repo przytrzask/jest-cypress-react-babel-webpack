@@ -18,7 +18,7 @@ function CalculatorDisplay({value, ...props}) {
         color: 'white',
         background: '#1c191c',
         lineHeight: '130px',
-        fontSize: '6em',
+        fontSize: '5em',
         flex: '1',
       }}
     >

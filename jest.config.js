@@ -8,4 +8,5 @@ module.exports = {
   },
   snapshotSerializers: ['jest-emotion'],
   moduleDirectories: ['node_modules', path.join(__dirname, 'src'), 'shared'],
+  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
 }
